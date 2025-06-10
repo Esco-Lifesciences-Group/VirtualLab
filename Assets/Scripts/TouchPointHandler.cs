@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TouchPointHandler : MonoBehaviour
 {
@@ -13,6 +14,6 @@ public class TouchPointHandler : MonoBehaviour
 
     void OnClick()
     {
-        productInfoUI.ShowInfo(productInfo);
+        productInfoUI.ShowProductInfo(productInfo);
     }
 }
